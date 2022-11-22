@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242,247,255);
+}
+
+.sidebar{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+.sidebar-header{
+    position: relative;
+    float: left;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.header-img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    float: left;
+}
+
+.header-title{
+    position: relative;
+    float: left;
+    height: 100%;
+    line-height: 35px;
+    padding-left: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(37,57,111);
+}
+
+.sidebar-content {
+    padding-top: 70px;
+    font-size: 16px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    height: 100%;
+    padding-top: 24px;
+    position: relative;
+}
+
+.button-img{
+    width: 30px;
+    height:30px;
+    position: relative;
+    float: left;
+}
+
+.button-text{
+    position: relative;
+    float: left;
+    height: 100%;
+    line-height: 35px;
+    padding-left: 8px;
+    font-size: 16px;
+    padding-right: 20px;
+    color: rgb(37,57,111);
+}
+
+.sidebar-menu li{
+    padding-top: 60px;
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+.sidebar-menu p{
+    font-weight: bold;
+}
+
+.sidebar-menu img{
+    position: relative;
+    float: left;
+}
+
+.switch-button{
+    padding-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.exception{
+    color: rgb(37,57,111);
+}
+
+.sidebar-footer{
+    position: absolute;
+    bottom: 30px;
+    padding-left: 30px;
+}
+
+.footer-img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    border-radius: 20%;
+}
+
+.footer-title{
+    position: relative;
+    float: left;
+    height: 100%;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.content{
+    height: 100%;
+    width: 85%;
+    position: relative;
+    float: left;
+}
+
+.container-search{
+    width: calc(100% - 10%);
+    height: 60px;
+    padding-top: 20px;
+}
+
+.search-box{
+    width: calc(100% - 25px);
+    height: 60px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.search-box img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.search-box p{
+    font-size: 15px;
+    color: rgb(173,184,209);
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.profile{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    float: right;
+    right: -100px;
+    bottom: 100%;
+    border-radius: 10px;
+}
+
+.container-calendar{
+    width: 95%;
+    height: 115px;
+    background-color:#FFFFFF;
+    margin-left: 40px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.calendar-month{
+    height: 50%;
+    border-bottom: 1px solid #F2F7FF;
+}
+
+.calendar-month h1{
+    font-size: 18px;
+    height: 100%;
+    color: #25396F;
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.arrow-l{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.arrow-r{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.calendar-day{
+    height: 45%;
+}
+
+.calendar-day ul{
+    list-style: none;
+    height: auto;
+    line-height: 50px;
+    position: absolute;
+    float: left;
+    font-weight: bold;
+}
+
+.calendar-day li{
+    font-size: 18px;
+    position: relative;
+    float: left;
+    padding-right: 100px;
+    padding-left: 55px;
+    color: rgb(136,151,188);
+}
+
+.calendar{
+    width: calc(100% - 5%);
+    height: 60%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contour{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 160px 160px 160px 160px 160px 160px 160px;
+    grid-gap: 8px;
+    grid-column-gap: 25px;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.date-contour{
+    text-align: justify;
+    border: #E9F0F9 1px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.day-no-available{
+    color: rgb(124,141,181);
+    font-weight: bold;
+}
+
+.no-task{
+    color: rgb(136,151,188);
+    font-weight: normal;
+}
+
+.day-available{
+    color: rgb(0,0,0);
+    font-weight: bold;
+}
+
+.task-available{
+    color: rgb(0,98,255);
+    font-weight: normal;
+}
+
+.markdown-lightblue{
+    background-color: rgba(248, 251, 255);
+}
+
+.markdown-blue{
+    background-color: rgb(0,98,255);
+    border-radius: 20%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.markdown-red{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(250,90,125);
+    border-radius: 20%;
+    position: relative;
+    left: 80px;
+    padding: 8px;
+    line-height: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.markdown-grey{
+    background-color: rgb(248,251,255);
+    border-radius: 20%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 4px;
+    border: 1px solid rgb(235,238,242)
+}
+
+.markdown-pink{
+    background-color: rgba(255,151,151,0.1);
+    border-radius: 20%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 4px;
+}
